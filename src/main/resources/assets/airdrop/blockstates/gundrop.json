@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "" : {"model": "airdrop:block/gundrop" }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "block.airdrop.flare_block" : "Flare",
+  "entity.airdrop.ac_130" : "Ac-130",
+  "sounds.airdrop.ac130sound": "Ac-130 Incoming!",
+  "block.airdrop.gun_drop" : "Drop"
+}

@@ -26,7 +26,6 @@ public class Ace_130Renderer extends GeoEntityRenderer<Ac_130Entity> {
     public RenderType getRenderType(Ac_130Entity animatable, float partialTick, PoseStack poseStack,
                                     @Nullable MultiBufferSource bufferSource, @Nullable VertexConsumer buffer,
                                     int packedLight, ResourceLocation texture) {
-        poseStack.scale(2, 2,2);
         return super.getRenderType(animatable, partialTick, poseStack, bufferSource, buffer, packedLight, texture);
     }
 }

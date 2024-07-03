@@ -1,0 +1,330 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.Drop": {
+			"animation_length": 3,
+			"bones": {
+				"Lide": {
+					"position": {
+						"0.0": {
+							"vector": [0, 160, 0]
+						},
+						"0.8333": {
+							"vector": [0, 123.33, 0]
+						},
+						"1.0": {
+							"vector": [0, 116, 0]
+						},
+						"2.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInCirc"
+						},
+						"2.9583": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"chest": {
+					"position": {
+						"0.0": {
+							"vector": [0, 160, 0]
+						},
+						"0.8333": {
+							"vector": [0, 123.33, 0]
+						},
+						"1.0": {
+							"vector": [0, 116, 0]
+						},
+						"2.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInCirc"
+						}
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"Hinges": {
+					"position": {
+						"0.0": {
+							"vector": [0, 160, 0]
+						},
+						"0.8333": {
+							"vector": [0, 123.33, 0]
+						},
+						"1.0": {
+							"vector": [0, 116, 0]
+						},
+						"2.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInCirc"
+						}
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"Latches": {
+					"position": {
+						"0.0": {
+							"vector": [0, 160, 0]
+						},
+						"0.8333": {
+							"vector": [0, 123.33, 0]
+						},
+						"1.0": {
+							"vector": [0, 116, 0]
+						},
+						"2.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInCirc"
+						}
+					}
+				},
+				"Para": {
+					"position": {
+						"0.0": {
+							"vector": [0, 160, 0]
+						},
+						"0.8333": {
+							"vector": [0, 123.33, 0]
+						},
+						"1.0": {
+							"vector": [0, 116, 0]
+						}
+					},
+					"scale": {
+						"0.8333": {
+							"vector": [1, 1, 1]
+						},
+						"1.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"rope": {
+					"position": {
+						"0.0": {
+							"vector": [0, 160, 0]
+						},
+						"0.8333": {
+							"vector": [0, 123.33, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, 116, 0]
+						}
+					},
+					"scale": {
+						"0.8333": {
+							"vector": [1, 1, 1]
+						},
+						"1.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.model.open": {
+			"animation_length": 1,
+			"bones": {
+				"Lide": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, -2.5]
+						},
+						"0.75": {
+							"vector": [0, 0, -85]
+						}
+					}
+				},
+				"Latches": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 17.5],
+							"easing": "easeInElastic"
+						},
+						"0.5": {
+							"vector": [0, 0, 82.5],
+							"easing": "easeInBack"
+						},
+						"0.75": {
+							"vector": [0, 0, 155],
+							"easing": "easeOutBack"
+						}
+					}
+				},
+				"Para": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"rope": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.model.CLOSE": {
+			"animation_length": 1.8333,
+			"bones": {
+				"Lide": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -85]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Latches": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 160]
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInElastic",
+							"easingArgs": [1]
+						}
+					}
+				},
+				"Para": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"rope": {
+					"scale": {
+						"vector": [-0.1, 0, 1]
+					}
+				}
+			}
+		},
+		"animation.model.IDLE": {
+			"loop": true,
+			"bones": {
+				"Para": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"rope": {
+					"scale": {
+						"vector": [0, 0, -0.3]
+					}
+				}
+			}
+		},
+		"animation.model.PARAOPEN": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Para": {
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"rope": {
+					"scale": {
+						"0.0": {
+							"vector": [-0.1, 0, 1]
+						},
+						"0.5": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
+		},
+		"animation.model.FALLING": {
+			"loop": true,
+			"bones": {
+				"Lide": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"chest": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"Hinges": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"Latches": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"Para": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"rope": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

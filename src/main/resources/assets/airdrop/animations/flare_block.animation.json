@@ -1,0 +1,281 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 32,
+			"particle_effects": {
+				"0.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"1.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"2.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"3.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"4.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"5.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"6.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"7.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"8.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"9.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"10.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"11.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"12.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"13.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"14.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"15.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"16.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"17.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"18.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"19.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"20.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"21.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"22.0417": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"23.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"24.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"25.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"26.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"27.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"28.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"29.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"30.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"31.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"32.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				}
+			}
+		},
+		"animation.model.Idle": {
+			"loop": true,
+			"animation_length": 64,
+			"particle_effects": {
+				"0.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"1.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"2.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"3.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"4.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"5.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"6.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"7.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"8.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"9.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"10.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"11.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"12.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"13.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"14.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"15.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"16.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"17.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"18.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"19.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"20.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"21.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"22.0417": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"23.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"24.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"25.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"26.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"27.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"28.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"29.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"30.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"31.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				},
+				"32.0": {
+					"effect": "angry_villager",
+					"locator": "locator"
+				}
+			}
+		}
+	}
+}
